@@ -102,5 +102,3 @@ foreign import ccall unsafe "streaming_commons_inflate_set_dictionary"
 
 wbToInt :: WindowBits -> CInt
 wbToInt (WindowBits i) = fromIntegral i
-wbToInt _ = 15
-
